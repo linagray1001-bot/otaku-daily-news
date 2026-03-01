@@ -1,9 +1,10 @@
 baseURL = "https://example.com/"
 languageCode = "en-us"
 title = "Otaku Daily News"
-theme = ""
-paginate = 12
 enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 12
 
 [params]
   description = "Daily anime and movie news"
